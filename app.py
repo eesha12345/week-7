@@ -29,7 +29,7 @@ monthly_sales = df["Sales"].resample("MS").sum()
 
 
 # LOAD ARIMA MODEL
-model = joblib.load("models/arima_model.pkl")
+model = joblib.load("arima_model.pkl")
 
 
 # SIDEBAR
