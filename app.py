@@ -166,7 +166,7 @@ elif page == "Decomposition":
     )
 
     st.image(
-        "assets/decomposition.png"
+        "decomposition.png"
     )
 
 
